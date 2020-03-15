@@ -1,0 +1,306 @@
+/* line 10, ../scss/_grid.scss */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 14, ../scss/_mixins.scss */
+.row::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+/* line 19, ../scss/_grid.scss */
+.col1 {
+  width: 8.3333333333%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col2 {
+  width: 16.6666666667%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col3 {
+  width: 25%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col4 {
+  width: 33.3333333333%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col5 {
+  width: 41.6666666667%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col6 {
+  width: 50%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col7 {
+  width: 58.3333333333%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col8 {
+  width: 66.6666666667%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col9 {
+  width: 75%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col10 {
+  width: 83.3333333333%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col11 {
+  width: 91.6666666667%;
+  float: left;
+}
+
+/* line 19, ../scss/_grid.scss */
+.col12 {
+  width: 100%;
+  float: left;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 27, ../scss/_grid.scss */
+  .colM1 {
+    width: 8.3333333333%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM3 {
+    width: 25%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM6 {
+    width: 50%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM9 {
+    width: 75%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 27, ../scss/_grid.scss */
+  .colM12 {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  /* line 36, ../scss/_grid.scss */
+  .colL1 {
+    width: 8.3333333333%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL2 {
+    width: 16.6666666667%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL3 {
+    width: 25%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL4 {
+    width: 33.3333333333%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL5 {
+    width: 41.6666666667%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL6 {
+    width: 50%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL7 {
+    width: 58.3333333333%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL8 {
+    width: 66.6666666667%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL9 {
+    width: 75%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL10 {
+    width: 83.3333333333%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL11 {
+    width: 91.6666666667%;
+  }
+
+  /* line 36, ../scss/_grid.scss */
+  .colL12 {
+    width: 100%;
+  }
+}
+/* line 5, ../scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../scss/style.scss */
+body {
+  background-color: #222;
+}
+
+/* line 14, ../scss/style.scss */
+.red {
+  background-color: red;
+}
+
+/* line 18, ../scss/style.scss */
+.blue {
+  background-color: blue;
+}
+
+/* line 22, ../scss/style.scss */
+.green {
+  background-color: green;
+}
+
+/* line 26, ../scss/style.scss */
+.hero {
+  background-image: url("../img/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* line 32, ../scss/style.scss */
+.mobileNav {
+  padding: 4% 8%;
+}
+/* line 35, ../scss/style.scss */
+.mobileNav i {
+  color: white;
+  font-size: 3em;
+  float: right;
+  cursor: pointer;
+}
+
+/* line 43, ../scss/style.scss */
+.mobileNavModal {
+  background: #222;
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  display: none;
+}
+
+/* line 52, ../scss/style.scss */
+.logoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 80vh;
+}
+
+/* line 57, ../scss/style.scss */
+.heroLogo {
+  background: url("../img/logo.png");
+  min-width: 80%;
+  min-height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* line 70, ../scss/style.scss */
+.scrollDownIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/* line 72, ../scss/style.scss */
+.scrollDownIcon i {
+  color: white;
+  font-size: 3em;
+}
+
+/*# sourceMappingURL=style.css.map */

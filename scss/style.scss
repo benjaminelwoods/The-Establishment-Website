@@ -1,0 +1,76 @@
+@import 'mixins';
+
+@import 'grid';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color: #222;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.hero {
+  background-image: url('../img/hero.jpg');
+  @include backCenter;
+  min-height: 100vh;
+}
+
+.mobileNav {
+    padding: 4% 8%;
+
+    i {
+        color: white;
+        font-size: 3em;
+        float: right;
+        cursor: pointer;
+    }
+}
+
+.mobileNavModal {
+    background: #222;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.logoContainer {
+    @include fullCenter;
+    min-height: 80vh;
+}
+
+.heroLogo {
+    background: url('../img/logo.png');
+    min-width: 80%;
+    min-height: 10vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.scrollDownContainer {
+
+}
+
+.scrollDownIcon {
+    @include fullCenter;
+    i {
+        color: white;
+        font-size: 3em;
+    }
+}
