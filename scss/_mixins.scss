@@ -10,6 +10,20 @@
     justify-content: center;
 }
 
+@mixin fullCenterLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@mixin fullCenterRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
 @mixin clear {
     &::after {
         clear: both;
