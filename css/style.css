@@ -144,7 +144,7 @@
     width: 100%;
   }
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   /* line 36, ../scss/_grid.scss */
   .colL1 {
     width: 8.3333333333%;
@@ -259,9 +259,45 @@ body {
   width: 100vw;
   height: 100vh;
   display: none;
+  padding: 4% 8%;
+}
+/* line 52, ../scss/style.scss */
+.mobileNavModal i {
+  position: absolute;
+  right: 8%;
+  color: white;
+  font-size: 3em;
+  cursor: pointer;
 }
 
-/* line 52, ../scss/style.scss */
+/* line 61, ../scss/style.scss */
+.navList {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 69, ../scss/style.scss */
+.listItem {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
+}
+
+/* line 80, ../scss/style.scss */
 .logoContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,7 +311,7 @@ body {
   min-height: 80vh;
 }
 
-/* line 57, ../scss/style.scss */
+/* line 85, ../scss/style.scss */
 .heroLogo {
   background: url("../img/logo.png");
   min-width: 80%;
@@ -285,7 +321,7 @@ body {
   background-repeat: no-repeat;
 }
 
-/* line 66, ../scss/style.scss */
+/* line 94, ../scss/style.scss */
 .scrollDownIcon {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -297,7 +333,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-/* line 68, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 .scrollDownIcon i {
   color: white;
   font-size: 3em;
@@ -336,12 +372,12 @@ body {
             transform: translateY(-10px);
   }
 }
-/* line 85, ../scss/style.scss */
+/* line 113, ../scss/style.scss */
 .heading {
   margin: 15% 0 8% 0;
   padding: 0 5%;
 }
-/* line 89, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 .heading h2 {
   text-align: center;
   color: white;
@@ -350,14 +386,14 @@ body {
   font-size: 28px;
 }
 
-/* line 98, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .border {
   border: 1px solid white;
   padding: 20px 25px;
   margin: 0 5%;
 }
 
-/* line 105, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 .aboutContent h3 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -365,7 +401,7 @@ body {
   font-size: 22px;
   margin-bottom: 5px;
 }
-/* line 113, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .aboutContent p {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -375,12 +411,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 123, ../scss/style.scss */
+/* line 151, ../scss/style.scss */
 .borderUnder {
   border-bottom: 1px solid white;
 }
 
-/* line 127, ../scss/style.scss */
+/* line 155, ../scss/style.scss */
 .aboutUsImg {
   margin-top: 20px;
   min-height: 150px;
@@ -389,12 +425,12 @@ body {
   background-size: cover;
 }
 
-/* line 137, ../scss/style.scss */
+/* line 165, ../scss/style.scss */
 .events {
   margin: 0 5% 15% 5%;
 }
 
-/* line 142, ../scss/style.scss */
+/* line 170, ../scss/style.scss */
 .eventContent h4 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -402,7 +438,7 @@ body {
   font-size: 20px;
   margin-bottom: 5px;
 }
-/* line 150, ../scss/style.scss */
+/* line 178, ../scss/style.scss */
 .eventContent p {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -412,62 +448,62 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 160, ../scss/style.scss */
+/* line 188, ../scss/style.scss */
 .eventImg {
   margin-top: 20px;
   min-height: 125px;
 }
 
-/* line 165, ../scss/style.scss */
+/* line 193, ../scss/style.scss */
 .monday {
   background: url("../img/monday.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 170, ../scss/style.scss */
+/* line 198, ../scss/style.scss */
 .tuesday {
   background: url("../img/tuesday.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 175, ../scss/style.scss */
+/* line 203, ../scss/style.scss */
 .wednesday {
   background: url("../img/wednesday.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 180, ../scss/style.scss */
+/* line 208, ../scss/style.scss */
 .thursday {
   background: url("../img/thursday.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 185, ../scss/style.scss */
+/* line 213, ../scss/style.scss */
 .friday {
   background: url("../img/friday.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 190, ../scss/style.scss */
+/* line 218, ../scss/style.scss */
 .saturday {
   background: url("../img/saturday.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 195, ../scss/style.scss */
+/* line 223, ../scss/style.scss */
 .sunday {
   background: url("../img/sunday.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 200, ../scss/style.scss */
+/* line 228, ../scss/style.scss */
 .toggle {
   border: 0;
   background: #222;
@@ -482,37 +518,37 @@ body {
           justify-content: center;
   cursor: pointer;
 }
-/* line 208, ../scss/style.scss */
+/* line 236, ../scss/style.scss */
 .toggle h6 {
   font-size: 18px;
   color: white;
   font-weight: 500;
 }
-/* line 214, ../scss/style.scss */
+/* line 242, ../scss/style.scss */
 .toggle i {
   margin: 0 10px 0 0;
   font-size: 30px;
   color: white;
 }
 
-/* line 224, ../scss/style.scss */
+/* line 252, ../scss/style.scss */
 .removeTopMargin {
   margin-top: 0%;
 }
 
-/* line 228, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 .drinksWhite {
   background: white;
   padding: 20px 25px;
 }
-/* line 232, ../scss/style.scss */
+/* line 260, ../scss/style.scss */
 .drinksWhite h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 5px;
 }
-/* line 239, ../scss/style.scss */
+/* line 267, ../scss/style.scss */
 .drinksWhite td {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -520,11 +556,11 @@ body {
   line-height: 25px;
 }
 
-/* line 247, ../scss/style.scss */
+/* line 275, ../scss/style.scss */
 .drinksBlack {
   padding: 20px 25px;
 }
-/* line 250, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
 .drinksBlack h4 {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -532,7 +568,7 @@ body {
   font-size: 20px;
   margin-bottom: 5px;
 }
-/* line 258, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
 .drinksBlack td {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -541,58 +577,58 @@ body {
   line-height: 25px;
 }
 
-/* line 267, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-/* line 271, ../scss/style.scss */
+/* line 299, ../scss/style.scss */
 .drinksImgSpecials {
   background: url("../img/specials.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 276, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 .drinksImgCocktails {
   background: url("../img/cocktails.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 281, ../scss/style.scss */
+/* line 309, ../scss/style.scss */
 .drinksImgBeer {
   background: url("../img/beer.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 286, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 .drinksImgWine {
   background: url("../img/wine.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 291, ../scss/style.scss */
+/* line 319, ../scss/style.scss */
 .foodButton {
   margin-bottom: 2%;
   padding: 12px 42px;
 }
 
-/* line 296, ../scss/style.scss */
+/* line 324, ../scss/style.scss */
 .marginTop {
   margin-top: 5%;
 }
 
-/* line 303, ../scss/style.scss */
+/* line 331, ../scss/style.scss */
 .contactForm {
   margin: 0 20px;
 }
 
-/* line 307, ../scss/style.scss */
+/* line 335, ../scss/style.scss */
 .input {
   background: #222;
   color: white;
@@ -606,7 +642,7 @@ body {
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
-/* line 319, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 .input:focus {
   color: #222;
   background: white;
@@ -614,7 +650,7 @@ body {
   transition: 0.25s;
 }
 
-/* line 326, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 .button {
   background: white;
   padding: 12px 35px;
@@ -627,7 +663,7 @@ body {
   transition: 0.25s;
   cursor: pointer;
 }
-/* line 337, ../scss/style.scss */
+/* line 365, ../scss/style.scss */
 .button:hover {
   color: white;
   background: #222;
@@ -635,7 +671,7 @@ body {
   transition: 0.25s;
 }
 
-/* line 344, ../scss/style.scss */
+/* line 372, ../scss/style.scss */
 .center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -648,7 +684,7 @@ body {
           justify-content: center;
 }
 
-/* line 348, ../scss/style.scss */
+/* line 376, ../scss/style.scss */
 .centerButton {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -661,23 +697,23 @@ body {
           justify-content: center;
 }
 
-/* line 352, ../scss/style.scss */
+/* line 380, ../scss/style.scss */
 .contactInfoContainer {
   padding: 0 20px;
 }
 
-/* line 356, ../scss/style.scss */
+/* line 384, ../scss/style.scss */
 .contactInfo {
   margin-top: 5%;
 }
-/* line 359, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 .contactInfo p {
   font-family: "Montserrat", sans-serif;
   color: white;
   font-size: 16px;
   margin-bottom: 10px;
 }
-/* line 366, ../scss/style.scss */
+/* line 394, ../scss/style.scss */
 .contactInfo h5 {
   font-family: "Montserrat", sans-serif;
   color: white;
@@ -685,21 +721,21 @@ body {
   font-size: 16px;
 }
 
-/* line 374, ../scss/style.scss */
+/* line 402, ../scss/style.scss */
 .map {
   margin: 5% 0;
 }
-/* line 377, ../scss/style.scss */
+/* line 405, ../scss/style.scss */
 .map iframe {
   width: 100%;
 }
 
-/* line 384, ../scss/style.scss */
+/* line 412, ../scss/style.scss */
 .footer {
   background: white;
   padding: 5% 20px;
 }
-/* line 388, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 .footer h4 {
   color: #222;
   font-family: "Montserrat", sans-serif;
@@ -709,11 +745,11 @@ body {
   text-align: center;
 }
 
-/* line 398, ../scss/style.scss */
+/* line 426, ../scss/style.scss */
 .socialContent {
   padding-bottom: 10%;
 }
-/* line 401, ../scss/style.scss */
+/* line 429, ../scss/style.scss */
 .socialContent i {
   font-size: 45px;
   color: #222;
@@ -721,14 +757,14 @@ body {
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
-/* line 407, ../scss/style.scss */
+/* line 435, ../scss/style.scss */
 .socialContent i:hover {
   opacity: 0.8;
   -webkit-transition: 0.25s;
   transition: 0.25s;
 }
 
-/* line 415, ../scss/style.scss */
+/* line 443, ../scss/style.scss */
 .centerLeft {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -741,7 +777,7 @@ body {
           justify-content: flex-start;
 }
 
-/* line 419, ../scss/style.scss */
+/* line 447, ../scss/style.scss */
 .centerRight {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -754,11 +790,11 @@ body {
           justify-content: flex-end;
 }
 
-/* line 423, ../scss/style.scss */
+/* line 451, ../scss/style.scss */
 .contactContent {
   padding-bottom: 10%;
 }
-/* line 426, ../scss/style.scss */
+/* line 454, ../scss/style.scss */
 .contactContent h5 {
   font-family: "Montserrat", sans-serif;
   color: #222;
@@ -767,12 +803,12 @@ body {
   text-align: center;
 }
 
-/* line 438, ../scss/style.scss */
+/* line 466, ../scss/style.scss */
 .quickLinksContent li {
   list-style: none;
   margin-left: 35%;
 }
-/* line 443, ../scss/style.scss */
+/* line 471, ../scss/style.scss */
 .quickLinksContent a {
   text-decoration: none;
   color: #222;
@@ -780,72 +816,82 @@ body {
   line-height: 25px;
 }
 
+/* line 479, ../scss/style.scss */
+.largeDisplayNone {
+  display: block;
+}
+
+/* line 483, ../scss/style.scss */
+.largeDisplayBlock {
+  display: none;
+}
+
 @media screen and (min-width: 600px) {
-  /* line 455, ../scss/style.scss */
+  /* line 491, ../scss/style.scss */
   .heading {
     margin: 10% 0 8% 0;
     padding: 0 15%;
   }
-  /* line 458, ../scss/style.scss */
+  /* line 494, ../scss/style.scss */
   .heading h2 {
     font-size: 40px;
   }
 
-  /* line 464, ../scss/style.scss */
+  /* line 500, ../scss/style.scss */
   .aboutContent h3 {
     font-size: 28px;
   }
-  /* line 467, ../scss/style.scss */
+  /* line 503, ../scss/style.scss */
   .aboutContent p {
     font-size: 18px;
     line-height: 25px;
   }
 
-  /* line 473, ../scss/style.scss */
+  /* line 509, ../scss/style.scss */
   .aboutUsImg {
     min-height: 250px;
   }
 
-  /* line 477, ../scss/style.scss */
+  /* line 513, ../scss/style.scss */
   .events {
     margin: 0 5% 10% 5%;
   }
 
-  /* line 482, ../scss/style.scss */
+  /* line 518, ../scss/style.scss */
   .eventContent h4 {
     font-size: 28px;
   }
-  /* line 486, ../scss/style.scss */
+  /* line 522, ../scss/style.scss */
   .eventContent p {
     font-size: 18px;
     line-height: 25px;
   }
 
-  /* line 492, ../scss/style.scss */
+  /* line 528, ../scss/style.scss */
   .eventImg {
     min-height: 200px;
   }
 
-  /* line 497, ../scss/style.scss */
+  /* line 533, ../scss/style.scss */
   .toggle h6 {
     font-size: 22px;
   }
-  /* line 501, ../scss/style.scss */
+  /* line 537, ../scss/style.scss */
   .toggle i {
     font-size: 35px;
   }
 
-  /* line 507, ../scss/style.scss */
+  /* line 543, ../scss/style.scss */
   .drinksWhite h4 {
     font-size: 28px;
   }
 
-  /* line 513, ../scss/style.scss */
+  /* line 549, ../scss/style.scss */
   .drinksBlack h4 {
     font-size: 28px;
   }
 
-  /* line 518, ../scss/style.scss */
+  /* line 554, ../scss/style.scss */
   .centerButton {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -859,72 +905,62 @@ body {
     margin-bottom: 5%;
   }
 
-  /* line 524, ../scss/style.scss */
+  /* line 560, ../scss/style.scss */
   .map iframe {
     min-height: 200px;
   }
-
-  /* line 529, ../scss/style.scss */
-  .largeDisplayNone {
-    display: block;
-  }
-
-  /* line 533, ../scss/style.scss */
-  .largeDisplayBlock {
-    display: none;
-  }
 }
 @media screen and (max-width: 600px) {
-  /* line 540, ../scss/style.scss */
+  /* line 568, ../scss/style.scss */
   .flex {
     display: block;
   }
 
-  /* line 543, ../scss/style.scss */
+  /* line 571, ../scss/style.scss */
   .drinksImgCocktails {
     display: none;
   }
 }
-@media screen and (min-width: 900px) {
-  /* line 553, ../scss/style.scss */
+@media screen and (min-width: 1200px) {
+  /* line 581, ../scss/style.scss */
   .heading {
     margin: 5% 0 2% 0;
     padding: 0 25%;
   }
-  /* line 556, ../scss/style.scss */
+  /* line 584, ../scss/style.scss */
   .heading h2 {
     font-size: 46px;
   }
 
-  /* line 561, ../scss/style.scss */
+  /* line 589, ../scss/style.scss */
   .border {
     padding: 2.5% 2%;
     margin: 0 20%;
   }
 
-  /* line 566, ../scss/style.scss */
+  /* line 594, ../scss/style.scss */
   .borderUnder {
     border-bottom: 0px;
   }
 
-  /* line 570, ../scss/style.scss */
+  /* line 598, ../scss/style.scss */
   .aboutContent {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     padding-right: 20px;
   }
-  /* line 573, ../scss/style.scss */
+  /* line 601, ../scss/style.scss */
   .aboutContent h3 {
     font-size: 38px;
   }
-  /* line 576, ../scss/style.scss */
+  /* line 604, ../scss/style.scss */
   .aboutContent p {
     font-size: 18px;
     line-height: 25px;
   }
 
-  /* line 582, ../scss/style.scss */
+  /* line 610, ../scss/style.scss */
   .aboutUsImg {
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -932,7 +968,7 @@ body {
     margin: 0;
   }
 
-  /* line 587, ../scss/style.scss */
+  /* line 615, ../scss/style.scss */
   .events {
     margin: 0 20% 2.5% 20%;
     display: -webkit-box;
@@ -946,49 +982,49 @@ body {
             justify-content: center;
   }
 
-  /* line 595, ../scss/style.scss */
+  /* line 623, ../scss/style.scss */
   .eventContent h4 {
     font-size: 38px;
   }
-  /* line 599, ../scss/style.scss */
+  /* line 627, ../scss/style.scss */
   .eventContent p {
     font-size: 22px;
     line-height: 25px;
   }
 
-  /* line 605, ../scss/style.scss */
+  /* line 633, ../scss/style.scss */
   .eventImg {
     min-height: 200px;
   }
 
-  /* line 609, ../scss/style.scss */
+  /* line 637, ../scss/style.scss */
   .monday, .wednesday, .friday, .sunday {
     margin-right: 5%;
   }
 
-  /* line 613, ../scss/style.scss */
+  /* line 641, ../scss/style.scss */
   .tuesday, .thursday, .saturday {
     margin-left: 5%;
   }
 
-  /* line 618, ../scss/style.scss */
+  /* line 646, ../scss/style.scss */
   .drinksWhite h4 {
     font-size: 38px;
   }
 
-  /* line 624, ../scss/style.scss */
+  /* line 652, ../scss/style.scss */
   .drinksBlack h4 {
     font-size: 38px;
   }
 
-  /* line 629, ../scss/style.scss */
+  /* line 657, ../scss/style.scss */
   .boxShadow {
     margin: 0 20%;
     -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
   }
 
-  /* line 636, ../scss/style.scss */
+  /* line 664, ../scss/style.scss */
   .centerContactButton {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1002,7 +1038,7 @@ body {
     margin-bottom: 5%;
   }
 
-  /* line 641, ../scss/style.scss */
+  /* line 669, ../scss/style.scss */
   .centerButtonRight {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1016,7 +1052,7 @@ body {
     padding-right: 2.5%;
   }
 
-  /* line 646, ../scss/style.scss */
+  /* line 674, ../scss/style.scss */
   .centerButtonLeft {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1030,33 +1066,33 @@ body {
     padding-left: 2.5%;
   }
 
-  /* line 651, ../scss/style.scss */
+  /* line 679, ../scss/style.scss */
   .marginSides {
     margin: 0 20%;
   }
 
-  /* line 655, ../scss/style.scss */
+  /* line 683, ../scss/style.scss */
   .marginBottom {
     margin-bottom: 5%;
   }
 
-  /* line 661, ../scss/style.scss */
+  /* line 689, ../scss/style.scss */
   .quickLinksContent li {
     margin: 0;
     text-align: center;
   }
 
-  /* line 668, ../scss/style.scss */
+  /* line 696, ../scss/style.scss */
   .largeDisplayNone {
     display: none;
   }
 
-  /* line 672, ../scss/style.scss */
+  /* line 700, ../scss/style.scss */
   .largeDisplayBlock {
     display: block;
   }
 
-  /* line 676, ../scss/style.scss */
+  /* line 704, ../scss/style.scss */
   .logoContainer {
     margin-top: -5vh;
     min-height: 75vh;

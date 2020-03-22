@@ -4,21 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://use.fontawesome.com/d893293c45.js"></script>
     <title>The Establishment | Restaurant & Bar</title>
   </head>
   <body>
 
     <div class="container">
 
-        <div class="row mobileNavModal">
-
+        <div id="mobileNavModal" class="row mobileNavModal">
+            <div class="closeMobileNav">
+                <i id="mobileNavModalClose" class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <div class="navList">
+                <ul>
+                    <li class="listItem">Home</li>
+                    <li class="listItem">About</li>
+                    <li class="listItem">Drinks</li>
+                    <li class="listItem">Contact</li>
+                </ul>
+            </div>
         </div>
 
         <section class="row hero">
 
             <div class="col12">
-                <nav class="mobileNav">
+                <nav id="mobileNavButton" class="mobileNav">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </nav>
             </div>
@@ -516,9 +525,9 @@
 
     </div>
 
-    <footer>
-
-    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/d893293c45.js"></script>
+    <script src="js/script.js" charset="utf-8"></script>
 
   </body>
 </html>

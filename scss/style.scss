@@ -47,6 +47,34 @@ body {
     width: 100vw;
     height: 100vh;
     display: none;
+    padding: 4% 8%;
+
+    i {
+        position: absolute;
+        right: 8%;
+        color: white;
+        font-size: 3em;
+        cursor: pointer;
+    }
+}
+
+.navList {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listItem {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
 }
 
 .logoContainer {
@@ -448,6 +476,14 @@ body {
     }
 }
 
+.largeDisplayNone {
+    display: block;
+}
+
+.largeDisplayBlock {
+    display: none;
+}
+
 // Medium Media Querys
 
 @media screen and (min-width: $mWidth) {
@@ -524,14 +560,6 @@ body {
         iframe {
             min-height: 200px;
         }
-    }
-
-    .largeDisplayNone {
-        display: block;
-    }
-
-    .largeDisplayBlock {
-        display: none;
     }
 
 }
